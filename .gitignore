@@ -1,0 +1,33 @@
+# Python environment
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/ # Jupyter notebook checkpoints
+
+# Large Data files (Life Expectancy Data.csv if you don't want to upload large files directly)
+Life Expectancy Data.csv
+# If your data is huge and you want to use it locally but not push to Git, keep this line.
+# Otherwise, remove this line if your CSV is small enough (GitHub has 100MB limit per file).
+
+# ML Model Artifacts (Binary files are often not ideal for direct Git versioning if large or change frequently)
+life_expectancy_artifacts/ # This folder contains your saved models and scalers.
+
+# Operating System Files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# IDE and other tool specific files
+.vscode/
+*.iml # IntelliJ IDEA
+.ipynb_checkpoints/
+
+# Logs
+*.log
+log/
+
+# Any other local configuration files
+config.ini
+.env
